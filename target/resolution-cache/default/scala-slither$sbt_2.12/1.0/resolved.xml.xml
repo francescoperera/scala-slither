@@ -4,7 +4,7 @@
 		module="scala-slither$sbt_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170531221709"
+		publication="20170531230332"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
