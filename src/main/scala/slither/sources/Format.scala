@@ -2,6 +2,5 @@ package slither.sources
 
 
 trait Format
-case object CSV extends Format
-case object JSON extends Format
-case object NDJSON extends Format
+case object Csv extends Format
+case object Json extends Format
