@@ -1,87 +1,59 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala)[0m
-[0m[[0mdebug[0m] [0mRecompiling all 6 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
-[0m[[0minfo[0m] [0mCompiling 6 Scala sources to /Users/francescoperera/Developer/Open-Source/scala-slither/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Scala sources to /Users/francescoperera/Developer/Open-Source/scala-slither/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.2[0m
-[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.12.2  with arguments: [0m
-[0m[[0mdebug[0m] [0m	-nowarn[0m
-[0m[[0mdebug[0m] [0m	-d[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_2b912d43[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/classes:/Users/francescoperera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/francescoperera/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/xsbti/interface-0.13.8.jar:/Users/francescoperera/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-interface-src/compiler-interface-src-0.13.8.jar:/Users/francescoperera/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.2.jar:/Users/francescoperera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.2.jar:/Users/francescoperera/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/Users/francescoperera/.ivy2/cache/jline/jline/jars/jline-2.14.3.jar[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/API.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Analyzer.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Command.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Compat.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/CompilerInterface.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/ConsoleInterface.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/DelegatingReporter.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Dependency.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/ExtractAPI.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/ExtractUsedNames.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/LocateClassFile.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Log.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/Message.scala[0m
-[0m[[0mdebug[0m] [0m	/var/folders/fv/swd9s1w90w386w2b429v8b7r0000gn/T/sbt_b70b1e25/xsbt/ScaladocInterface.scala[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.2[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 34eb768d, interfacing (CompilerInterface) with Scala compiler version 2.12.2[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2c82614d, interfacing (CompilerInterface) with Scala compiler version 2.12.2[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/jre/classes:/Users/francescoperera/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/francescoperera/Developer/Open-Source/scala-slither/target/scala-2.12/classes:/Users/francescoperera/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/io.circe/circe-numbers_2.12/jars/circe-numbers_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-0.8.1.jar:/Users/francescoperera/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-0.8.1.jar:/Users/francescoperera/.ivy2/cache/com.github.mpilquist/simulacrum_2.12/jars/simulacrum_2.12-0.10.0.jar:/Users/francescoperera/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar:/Users/francescoperera/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.1.jar:/Users/francescoperera/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.0.jar:/Users/francescoperera/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-0.8.1.jar:/Users/francescoperera/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar:/Users/francescoperera/.ivy2/cache/io.circe/circe-parser_2.12/jars/circe-parser_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/io.circe/circe-jawn_2.12/jars/circe-jawn_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/org.spire-math/jawn-parser_2.12/jars/jawn-parser_2.12-0.10.4.jar:/Users/francescoperera/.ivy2/cache/io.circe/circe-java8_2.12/jars/circe-java8_2.12-0.7.0-M2.jar:/Users/francescoperera/.ivy2/cache/org.scalaj/scalaj-http_2.12/jars/scalaj-http_2.12-2.3.0.jar:/Users/francescoperera/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.22.jar:/Users/francescoperera/.ivy2/cache/com.typesafe.scala-logging/scala-logging_2.12/bundles/scala-logging_2.12-3.5.0.jar:/Users/francescoperera/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar:/Users/francescoperera/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 63.079912143 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 18.646248545 s[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, copy$default$5, productArity, toMap, equals, secretAccessKey, asInstanceOf, synchronized, $isInstanceOf, accessKeyId, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, folder, ==, clone, S3Source, bucket, region, copy$default$3, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m	_type.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/LiterateTomato.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, LiterateTomato, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	_type.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, Anduin, wait, $asInstanceOf, equals, URL, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, transform, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m	buildPostData, transform.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, copy$default$2, $asInstanceOf, productArity, toMap, equals, asInstanceOf, domain, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, isInstanceOf, <init>, SocrataSource, ==, clone, token, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala: Set(transform)[0m
+[0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, dummyS3, asInstanceOf, executionStart, data, synchronized, $isInstanceOf, main, notifyAll, anduin, isInstanceOf, ==, clone, Main, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Format.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, Format, wait, $asInstanceOf, productArity, equals, JSON, asInstanceOf, synchronized, $isInstanceOf, canEqual, CSV, productPrefix, notifyAll, readResolve, isInstanceOf, NDJSON, ==, clone, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala: Set(Format)[0m
 [0m[[0mdebug[0m] [0mInvalidating /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala...[0m
 [0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala...[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala)[0m
@@ -89,11 +61,12 @@
 [0m[[0mdebug[0m] [0mIncluding /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala by /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala, /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala)[0m
 [0m[[0mdebug[0m] [0mThe /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/Source.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, toMap, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, Source, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m	notify, _type, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, readResolve, Socrata, isInstanceOf, S3, ==, clone, SourceType, toString, !=, getClass, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
 [0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala: Set(asInstanceOf, isInstanceOf, Source, ==, toString, eq)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala: Set(Source)[0m
-[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala: Set(asInstanceOf, isInstanceOf, Source, ==, toString, eq)[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/Main.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/SocrataSource.scala: Set(_type, asInstanceOf, Socrata, isInstanceOf, ==, SourceType, toString, eq)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/Anduin.scala: Set(toString)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /Users/francescoperera/Developer/Open-Source/scala-slither/src/main/scala/slither/sources/S3Source.scala: Set(_type, asInstanceOf, isInstanceOf, S3, ==, SourceType, toString, eq)[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -1,15 +1,15 @@
 package slither
 
-import io.circe.Json
+
 import sources.Source
 import sources.Format
 
-import scalaj.http.{Http, HttpRequest, HttpResponse}
+import scalaj.http.{Http,HttpResponse}
 
 
 class Anduin( source: Source, transformation: Any) {
   //TODO: give type to transformation
-
+ 
   private val URL: String = "http://localhost:8081/stream"
 
   // for now let it return the body as string, but it will be a a list of NDJSON objects

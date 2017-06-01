@@ -2,7 +2,7 @@ package slither.sources
 
 
 trait Source {
-  def _type: String
+  def _type: SourceType
   def toMap: Map[String,String]
 }
 

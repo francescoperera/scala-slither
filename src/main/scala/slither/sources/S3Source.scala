@@ -14,7 +14,8 @@ case class S3Source(accessKeyId: String,
     "secretAccessKey" -> secretAccessKey,
     "region" -> region,
     "bucket" -> bucket,
-    "folder" -> folder
+    "folder" -> folder,
+    "_type" -> this._type.toString
   )
 }
 
