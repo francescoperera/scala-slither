@@ -1,0 +1,6 @@
+package slither
+
+
+class LiterateTomato {
+
+}
